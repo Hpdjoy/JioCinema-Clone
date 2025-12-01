@@ -34,13 +34,13 @@ app.use(cors(corsConfig));
 app.options("*", cors(corsConfig));
 
 // Router imports
-const AuthRouter = require("./Routers/AuthRouter");
-const MovieRouter = require("./Routers/MovieRouter");
-const TvShowsRouter = require("./Routers/TvRouter");
-const DiscoverRouter = require("./Routers/DiscoverRouter");
-const UserRouter = require("./Routers/UserRouter");
-const VideoRouter = require("./Routers/VideoRouter");
-const PaymentRouter = require("./Routers/PaymentRouter");
+const AuthRouter = require("./routers/AuthRouter");
+const MovieRouter = require("./routers/MovieRouter");
+const TvShowsRouter = require("./routers/TvRouter");
+const DiscoverRouter = require("./routers/DiscoverRouter");
+const UserRouter = require("./routers/UserRouter");
+const VideoRouter = require("./routers/VideoRouter");
+const PaymentRouter = require("./routers/PaymentRouter");
 
 // Router middleware
 app.use("/api/auth", AuthRouter);
