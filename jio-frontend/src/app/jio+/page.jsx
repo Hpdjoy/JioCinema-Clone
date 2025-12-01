@@ -21,7 +21,7 @@ export default async function JioPlusPage() {
                     >
                         <Image
                             src={getStreamingVideoThumbnail(video.id)}
-                            alt=""
+                            alt=" video thumbnail"
                             width={200}
                             height={300}
                             className="min-w-[200px] h-[300px] rounded-lg object-cover"
